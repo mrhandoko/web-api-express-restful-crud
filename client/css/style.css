@@ -1,0 +1,57 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-top: 20px;
+    width: 80%;
+}
+
+td {
+    padding-left: 10px;
+}
+
+a#new {
+    text-decoration: none;
+    background-color: lightskyblue;
+    padding: 10px;
+    color: white;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+a#new:hover {
+  background-color: #c2def0;
+}
+
+button {
+  margin: 2px;
+  padding: 5px 10px;
+  font-size: small;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-completed {
+  background-color: green;
+  border: 1px solid green;
+}
+
+.btn-uncompleted {
+  background-color: orange;
+  border: 1px solid orange;
+}
+
+.btn-delete {
+  background-color: red;
+  border: 1px solid red;
+}
+
+.btn-edit {
+  background-color: #00ffbf;
+  border: 1px solid #00ffbf;
+}
